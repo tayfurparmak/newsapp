@@ -1,5 +1,14 @@
 # Newsapp
 
+```
+git checkout -b gh-pages
+ng add angular-cli-ghpages
+ng deploy --base-href=https://tayfurparmak.github.io/newsapp/
+git stash
+git checkout master
+git branch -D gh-pages
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
 ## Development server
