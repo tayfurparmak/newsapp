@@ -1,0 +1,15 @@
+<div class="list-group">
+  <a
+    [href]="article.url"
+    target="_blank"
+    class="list-group-item list-group-item-action"
+    *ngFor="let article of news.articles"
+  >
+    <div class="float-start">
+      {{ article.title }}
+    </div>
+    <div class="float-end">
+      <small>{{ article.publishedAt }}</small>
+    </div>
+  </a>
+</div>
